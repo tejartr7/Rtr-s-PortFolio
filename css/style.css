@@ -1,0 +1,757 @@
+/*Universal tags*/
+body {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    background-size: cover;
+}
+
+/*in section with id tilte*/
+#first {
+    color: white;
+    background-size: cover;
+    background-color: #000000;
+}
+
+/*NAV BAR*/
+#title {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.main {
+    width: 100%;
+}
+
+.navbar {
+    width: 100vw;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+}
+
+.navbar-brand {
+    color: yellow;
+
+}
+
+.nav-logo {
+    padding-left: 3vw;
+    width: 6rem;
+    height: auto;
+}
+
+.navbar-brand:hover {
+    color: greenyellow;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.nav-item {
+    padding-left: 2vw;
+}
+
+/*intro page*/
+.intro {
+    /*   background-color: aliceblue;*/
+    width: auto;
+    height: 25vh;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20% 0% 0% 0%;
+
+}
+
+.name {
+    font-size: 2.5rem;
+    font-family: 'Montserrat';
+}
+
+/*resume button*/
+a.resume {
+    border: none;
+    color: white;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* for font awesome*/
+.fa-solid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hello {
+    color: white;
+}
+
+/*about section*/
+.profile {
+
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+div.about {
+    background-color: black;
+}
+
+.profile {
+    margin-top: 10%;
+}
+
+.image-pic {
+    margin-left: 2.5%;
+    border-radius: 155px;
+    width: auto;
+    height: auto;
+}
+
+
+.data {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    font-weight: 1.25rem;
+    padding: 2% 2% 2% 2%;
+}
+
+
+/*Coding profiles*/
+#second {
+    background-color: #537FE7;
+}
+
+.coding-profile {
+    padding: 4% 2% 5% 4%;
+    text-align: center;
+    align-items: center;
+}
+
+.platform-image {
+    border-radius: 25px;
+}
+
+.coding-header {
+    font-size: 3.5rem;
+    text-align: center;
+    background-color: skyblue;
+    border-top: 2px solid black;
+}
+
+.img-names {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    font-size: 2.5rem;
+}
+
+/*project section*/
+.about {
+    width: 100%;
+    padding: 5% 0% 5% 0%;
+}
+
+
+.lifi {
+    width: 70%;
+    height: 50vh;
+    margin-left: 5%;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 2.5rem;
+}
+
+#third {
+    background-color: skyblue;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+}
+
+.porject-row {
+    width: 100%;
+
+}
+
+.lora {
+    margin-top: 6%;
+    width: 80%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.proj-logo {
+    width: 5%;
+    height: auto;
+    margin-bottom: 0.4%;
+}
+
+.projects {
+    background-color: skyblue;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.pro-info-a,
+.pro-info-b,
+.pro-info-c {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.pro-info-a {
+    margin-top: 10%;
+}
+
+.pro-info-b {
+    margin-top: 5%;
+}
+
+.git_button1 {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.git_button2 {
+    padding-left: 35%;
+    padding-top: 5%;
+}
+
+
+a.git {
+    border: none;
+    color: white;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.quiz {
+    width: 65%;
+    height: 45vh;
+    padding-left: 0%;
+}
+
+/*fourth section*/
+#fourth {
+    background-color: #C0EEF2;
+}
+
+.skills-head {
+    color: black;
+}
+
+.Skills {
+    color: black;
+}
+
+.bootstrap.src {
+    width: 100%;
+    height: 15vh;
+}
+
+.Skills::after {
+    background: url("https://raw.githubusercontent.com/tbaltrushaitis/cv/master/src/assets/img/section-divider.png") no-repeat 0 0;
+    position: absolute;
+    top: 70px;
+    height: 15px;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    width: 113px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: white;
+}
+
+.skill {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill img {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 25px;
+}
+
+.c-lang {
+    width: 55%;
+    height: 25vh;
+}
+
+img.make-center {
+    margin-top: 10%;
+}
+
+.css {
+    height: 20vh;
+}
+
+.card-group {
+    height: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card.img {
+    object-fit: cover;
+    height: max(10rem, 30vh);
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+
+
+.technology {
+    height: 28vh;
+    border-radius: 25px;
+    padding: 5% 5% 5% 5%;
+    width: 80%;
+}
+
+.card.img {
+    border-radius: 25px;
+}
+
+/*experiences*/
+#sixth {
+    background-color: #E9F8F9;
+}
+
+.coding-exp {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    font-family: 'Kanit';
+    border-top: 2px solid black;
+}
+
+.skill_scrolls {
+    width: 65%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 2%;
+
+}
+
+.coding-exp {
+    border-top: 5px solid black;
+}
+
+.skill_trainee {
+    padding-left: 2%;
+    text-align: center;
+    border-top: 5px solid;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+}
+
+.exp_head {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+.skill_trainee,
+.exp_2 {
+    font-family: sans-serif;
+    border-top: 5px solid black;
+}
+
+.smart_int {
+    height: 40vh;
+    width: 45%;
+    border-radius: 20px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.exp_2 {
+    text-align: center;
+    padding-bottom: 2%;
+    border-top: 5px solid black;
+
+}
+
+/*Contact section*/
+.contacts {
+    background-color: black;
+    text-align: center;
+}
+
+.contact-head,
+.footer {
+    color: yellow;
+
+}
+
+.footer {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-button {
+    display: inline;
+    margin: 10px;
+}
+
+/*Extra styles*/
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-family: serif;
+    color: black;
+    font-size: 2.5rem;
+}
+.card
+{
+    height: auto;
+    width: 90vw;
+    background-color:skyblue;
+}
+.card-img-lifi,.card-img-lora,.card-img-quiz
+{
+    height: 38vh;
+    width: auto;
+    padding: 0% 2.5% 0% 2.5%;
+}
+.card-img-lifi
+{
+    margin-top: 8%;
+}
+@media screen and (max-width:700px) {
+    .card-img-lifi,.card-img-lora,.card-img-quiz
+{
+    height: 55vh;
+    width: auto;
+    padding: 0% 2.5% 0% 2.5%;
+}
+}
+/*All media queries*/
+@media screen and (min-width:1500px) {
+    #navbarScroll {
+        padding-left: 45vw;
+    }
+
+    .nav-link:hover {
+        transform: scale(1.5);
+    }
+
+    .git2 {
+        padding-left: 10%;
+    }
+
+    .edu-image-njc {
+        width: 70%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .nav-logo {
+        padding-left: 0%;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    #navbarScroll {
+        padding-left: 0vw;
+    }
+
+    .skill_trainee {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .exp_2 {
+        text-align: center;
+    }
+
+    .smart_int {
+        height: 40vh;
+        width: 60%;
+        margin-left: 3%;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .coding-exp {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        border-top: 2px solid black;
+    }
+
+    .image-pic {
+        width: 75%;
+        height: 100%;
+        border-radius: 135px;
+    }
+
+    .profile {
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        padding: 0% 0% 0% 20%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .coding-platform {
+        padding: 5% 0% 5% 0%;
+    }
+
+    .git {
+        width: 95vw;
+    }
+
+    .proj-logo {
+        margin-bottom: 1.25%;
+    }
+
+    .lifi {
+        padding-left: 2%;
+        height: auto;
+    }
+
+    .quiz {
+        width: 85%;
+        height: 45vh;
+        padding-left: 0%;
+    }
+
+    .skill img {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .git_button1 {
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
+    .git_button2 {
+        padding-left: 45%;
+        padding-top: 5%;
+    }
+
+    .study-image {
+        text-align: center;
+    }
+
+    .technology {
+        padding: 1 0 1 0;
+        width: 50%;
+        height: 30vh;
+
+    }
+
+    .skills-div {
+        padding-left: 2%;
+    }
+
+    .technology {
+        border-radius: 25px;
+    }
+
+    .lora {
+        margin-top: 6%;
+        width: 80%;
+        height: auto;
+        margin-left: 12%;
+    }
+
+    .skill {
+        width: 45%;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-left: 10%;
+    }
+
+    .c-lang {
+        width: 55%;
+        height: 15vh;
+    }
+
+    img.make-center {
+        margin-top: 20%;
+        height: 10vh;
+        ;
+    }
+
+    .css {
+        height: 10vh;
+    }
+
+    h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-family: serif;
+        color: black;
+        font-size: 2rem;
+    }
+
+}
+
+.card-group {
+    position: relative;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+@media screen and (min-width:1000px) and (max-width:1300px) {
+    .git {
+        width: 40vw;
+    }
+
+    #navbarScroll {
+        padding-left: 32vw;
+    }
+
+    .git_button1 {
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
+    .git_button2 {
+        padding-left: 35%;
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card
+    {
+        margin-left: 10%;
+    }
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .git_button2 {
+        padding-left: 40%;
+        padding-top: 5%;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:950px) {
+    #navbarScroll {
+        padding-left: 15vw;
+    }
+
+    .git_button {
+        padding-left: 45%;
+        padding-top: 5%;
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+    #navbarScroll {
+        padding-left: 0vw;
+    }
+
+    .coding-exp,
+    .skill_trainee,
+    .exp_2 {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        border-top: 2px solid black;
+    }
+
+    .skill {
+        width: 45%;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-left: 8%;
+    }
+
+    .lifi {
+        margin-right: 1%;
+        margin-left: 8%;
+    }
+
+    .technology {
+        padding: 2 0 1 0;
+        width: 50%;
+        height: 20vh;
+    }
+
+    .intro {
+        height: 40vh;
+        padding: 18% 0% 0% 0%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:550px) {
+    .coding-exp {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        font-size: 1rem;
+        border-top: 1px solid black;
+    }
+
+    .technology {
+        padding: 2 0 1 0;
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:250px) and (max-width:300px) {
+    body {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+}
